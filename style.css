@@ -1,4 +1,5 @@
 body {
+    margin: 0 50px;
 }
 
 header {
@@ -80,12 +81,66 @@ a {
 }
 
 .section-3 {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 .quote-block {
+    width: 800px;
+    padding: 50px;
+}
+
+.section-3 h3 {
+    text-align: left;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.section-3 h4 {
+    text-align: right;
+    font-size: 15px;
 }
 
 .section-4 {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
+
+.section-4 .cta-block {
+    height: 200px;
+    width: 800px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-4 button {
+    width: 100px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.section-4 h4 , h5 {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.section-4 h4 {
+    font-size: 25px;
+}
+
+.section-4 h5 {
+    font-size: 15px;
+}
+
 
 footer {
     display: flex;
