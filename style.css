@@ -22,11 +22,52 @@ a {
 .section-1 {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
+.section-1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 400px;
+    height: 300px;
+}
+
+.section-1 p {
+    flex-wrap: wrap;
+}
+
+.section-1 button {
+    height: 30px;
+    width: 100px;
+}
+
+.section-1-image-container {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
 
 .section-2 {
-    
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 150px;
 }
 
 .section-3 {
