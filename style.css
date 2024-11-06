@@ -1,0 +1,44 @@
+body {
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+
+}
+
+.left-links {
+    display: flex;
+}
+
+a {
+
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.section-2 {
+    
+}
+
+.section-3 {
+    
+}
+
+.section-4 {
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
