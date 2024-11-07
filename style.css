@@ -176,12 +176,12 @@ button {
 
 .section-4 .cta-block {
     height: auto;
-    width: 800px;
+    width: 1020px;
     padding: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #3882F6;
     border-radius:12px;
 }
